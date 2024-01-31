@@ -116,7 +116,7 @@ export async function getAllEvents({ query, limit = 6, page, category }: GetAllE
 
     return {
       data: JSON.parse(JSON.stringify(events)),
-      totalPages: Math.ceil(eventsCount / limit),
+       totalPages: Math.ceil(eventsCount / limit),
     }
   } catch (error) {
     handleError(error)

@@ -25,7 +25,7 @@ const UpdateEvent = async ({ params: { id } }: UpdateEventProps) => {
           type="Update" 
           event={event} 
           eventId={event._id} 
-          userId={userId} 
+          userId={userId}
         />
       </div>
     </>
